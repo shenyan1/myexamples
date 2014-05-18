@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# input examples: ./pget.py 0 http://kslab.kaist.ac.kr/kse612/Festinger1954.pdf 续传file
+# ./pget.py 2 http://kslab.kaist.ac.kr/kse612/Festinger1954.pdf 下载到第二个块就不再下载file
 # encoding: utf-8
 import threading
 import urllib2
